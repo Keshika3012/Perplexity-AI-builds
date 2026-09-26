@@ -1,15 +1,21 @@
-# AI Product Builds: Perplexity
+# AI Product Management Portfolio
 
-Ten AI product management builds, applied to a single product.
+Two kinds of work live here:
 
-This repo works through ten recurring problems in AI products (citations,
-evals, failure UX, cost, memory, safety, latency) as improvements to one product:
-**Perplexity**.
+- **Builds:** ten recurring AI product problems (citations, evals, failure UX, cost,
+  memory, safety, latency), each worked through as an improvement to a single product.
+  Round one: **Perplexity**.
+- **Teardowns:** weekly teardowns of other products, written as separate practice in
+  finding and framing product problems.
 
-**Why Perplexity:** it's an AI search product where every one of these problems is live and
-visible. Its citations, retrieval failures, model choices and pricing are all observable
-from the outside, so each spec is grounded in real user complaints and real constraints
-rather than invented ones.
+ The builds are deliberately applied
+to one product rather than ten, so the result reads as one product improved ten ways
+instead of ten disconnected exercises.
+
+**Why Perplexity for round one:** it's an AI search product where every one of these
+problems is live and visible. Its citations, retrieval failures, model choices and pricing
+are all observable from the outside, so each spec is grounded in real user complaints and
+real constraints rather than invented ones.
 
 One build per week for ten weeks, then two weeks turning the strongest work into case
 studies.
@@ -26,40 +32,4 @@ studies.
 | 6 | Handling AI Mistakes Gracefully | Failure with no recovery path loses the user | Flow + error taxonomy | Not started |
 | 7 | Edge-Case Test Suite (Evals) | No way to know if a prompt change broke things | Eval runner + results | Not started |
 | 8 | Safety & Polite Refusals | Accusatory refusals damage the brand | Spec + test cases | Not started |
-| 9 | Smart Caching | Repeated queries pay full price every time | PRD + latency demo | Not started |
-| 10 | Prompting vs Training Decision Guide | Teams over-engineer what a prompt could fix | Decision doc | Not started |
-
-## How each build is structured
-
-Every build folder contains:
-
-- `spec.md`: problem, target user, evidence, proposed solution, success metrics
-- `decisions.md`: trade-offs considered and why I chose what I chose
-- Artifacts: designs, code or sheets, depending on the build
-
-Where a build can be demonstrated rather than described, it is. Builds 2, 7 and 9 include
-working code.
-
-## Repo structure
-
-```
-builds/
-  01-source-links/
-  02-model-routing/
-  ...
-teardowns/
-case-studies/
-```
-
-`teardowns/` holds weekly teardowns of other products, written as separate practice in
-finding and framing product problems.
-
-## Build log
-
-| Week | Date | What shipped |
-|---|---|---|
-| 0 | 25 Sep 2026 | Repo set up, product chosen |
-
----
-
-*Independent portfolio project. Not affiliated with or endorsed by Perplexity AI.*
+| 9 | Smart Caching | Repeated queries pay full price every time | PRD + latency demo

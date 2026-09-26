@@ -2,8 +2,7 @@
 
 Ten AI product management builds, applied to a single product.
 
-I'm an AI engineer moving into AI product management. Rather than ten disconnected
-exercises, this repo works through ten recurring problems in AI products (citations,
+This repo works through ten recurring problems in AI products (citations,
 evals, failure UX, cost, memory, safety, latency) as improvements to one product:
 **Perplexity**.
 

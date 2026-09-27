@@ -62,7 +62,7 @@ case-studies/
 | Week | Date | What shipped |
 |---|---|---|
 | 0 | 25 Sep 2026 | Repo set up, product chosen |
-| 0 | 27 Sep 2026 | First teardown: Google Maps navigation voice
+| 0 | 26 Sep 2026 | First teardown: Google Maps navigation voice
 
 ---
 

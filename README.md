@@ -8,9 +8,7 @@ Two kinds of work live here:
 - **Teardowns:** weekly teardowns of other products, written as separate practice in
   finding and framing product problems.
 
-I'm an AI engineer moving into AI product management. The builds are deliberately applied
-to one product rather than ten, so the result reads as one product improved ten ways
-instead of ten disconnected exercises.
+The builds are deliberately applied to one product rather than ten, so the result reads as one product improved ten ways instead of ten disconnected exercises.
 
 **Why Perplexity for round one:** it's an AI search product where every one of these
 problems is live and visible. Its citations, retrieval failures, model choices and pricing
